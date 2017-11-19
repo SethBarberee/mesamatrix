@@ -18,7 +18,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-require_once "../lib/base.php";
+require_once '../lib/base.php';
 
-$controller = new Mesamatrix\Controller\AboutController();
-$controller->writeHtml();
+$controller = new Mesamatrix\Controller\ApiController();
+$controller->openGlAndEs();
